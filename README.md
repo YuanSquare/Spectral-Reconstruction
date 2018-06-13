@@ -19,3 +19,5 @@ PyTorch impementation.
 ## resnext_grad_mse_naya.py
    
   Based on the inspiration of  inception structure in GoogleNet, the model unit has been further improved. The muti-RF structure contains 5 branchs which has different RF to get more information from different scale and kernal size.
+  
+  Another contribution is that i put forward the mean square error function of spectral latitude gradient which can change the gradient descent direction during training and further restrict the trend information of spectral data in spectral latitude
