@@ -7,6 +7,8 @@ INPUT: A blurred image(single channel) and a clear RGB image(3 channels) ;
 
 OUTPUT: Spectral data cube (16 channels, adjustable  in different cases)
 
+The model is very simple which contains 8 convolutional layers.
+
 ## resnet_mse_2inflow_pooling_gap.py
 PyTorch impementation.
 
